@@ -1,0 +1,9 @@
+﻿@model IQueryable<Employee>
+@foreach (var p in Model)
+{
+<div>
+    <h3>@p.Name</h3>
+    <h3>@p.General</h3>
+    <h3>@p.Country</h3>
+</div>
+}
